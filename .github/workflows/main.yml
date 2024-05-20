@@ -20,6 +20,7 @@ jobs:
           haxelib run hmm install --quiet
           haxelib setup lime windows
           haxelib install openfl 9.3.3
+          haxelib install lime 2.2.8 
       - name: Compile
         run: haxelib run lime build windows
       - name: Upload Artifact
